@@ -16,10 +16,10 @@ public class MemoryBookService implements BookService {
     public MemoryBookService() {
         books = new ArrayList<>();
         books.add(new Book(null, "9788324631766", "Thinking in Java", "Bruce Eckel","Helion", "programming"));
-        books.add(new Book(null, "9788324627738", "Rusz	głową Java.", "Sierra Kathy,	Bates Bert", "Helion","programming"));
-        books.add(new Book(null, "9780130819338", "Java 2. Podstawy", "Cay Horstmann,	Gary Cornell", "Helion","programming"));
-        books.add(new Book(null, "3451283092103", "Władca Pierścieni", "John Ronald Reuel Tolkien", "Allen & Unwin", "fantasy"));
-        books.add(new Book(null, "4567983209836", "Wiedźmin", "Andrzej Sapkowski", "SuperNowa", "fantasy"));
+        books.add(new Book(null, "9788324627738", "Head first Java.", "Sierra Kathy,	Bates Bert", "Helion","programming"));
+        books.add(new Book(null, "9780130819338", "Java 2. basics", "Cay Horstmann,	Gary Cornell", "Helion","programming"));
+        books.add(new Book(null, "3451283092103", "Lord of the rings", "John Ronald Reuel Tolkien", "Allen & Unwin", "fantasy"));
+        books.add(new Book(null, "4567983209836", "The witcher", "Andrzej Sapkowski", "SuperNowa", "fantasy"));
     }
 
     @Override
